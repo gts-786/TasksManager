@@ -1,0 +1,23 @@
+.app {
+  text-align: center;
+  min-width: 915px;
+  max-width: 915px;
+  padding: 10px;
+  margin: auto;
+  font-family: serif;
+}
+
+.app__navbar {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 15px;
+  background-color: lightgoldenrodyellow;
+  font-size: 20px;
+}
+
+.app__navlink {
+  color: black;
+  text-decoration: none;
+}

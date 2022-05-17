@@ -1,0 +1,26 @@
+.taskList {
+  display: grid;
+  width: 900px;
+  border: 2px solid lime;
+  grid-template-columns: 6fr 6fr 2fr 2fr;
+  font-size: 20px;
+  font-family: serif;
+  padding: 5px;
+}
+
+.header {
+  padding: 5px 0px 5px 10px;
+}
+
+.taskListFont {
+  font-family: serif;
+}
+
+.task {
+  text-align: start;
+  margin-left: 20px;
+}
+
+.finished {
+  grid-template-columns: 7fr 7fr 2fr;
+}

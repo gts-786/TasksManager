@@ -1,0 +1,22 @@
+.content {
+  display: grid;
+  width: 900px;
+  grid-template-columns: 6fr 6fr 2fr 2fr;
+  font-size: 20px;
+  font-family: serif;
+  padding: 5px;
+}
+
+.myBtn {
+  margin: auto;
+  padding: auto;
+}
+
+.task {
+  text-align: start;
+  margin-left: 20px;
+}
+
+.finished {
+  grid-template-columns: 7fr 7fr 2fr;
+}
